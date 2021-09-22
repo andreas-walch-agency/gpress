@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:        Andreas Walch
+ Author URI:   https://walch.agency
+ Template:     generatepress
+ Version:      0.1
+*/
+
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+// 3. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// 4. Components
+@import
+  'components/button';
+
+// 5. Page-specific styles
+@import
+  'pages/home';
